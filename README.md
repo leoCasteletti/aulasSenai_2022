@@ -8,3 +8,6 @@ Contém programas desenvolvidos nas seguintes linguagens:
 - HTML
 - JavaScript
 - PHP
+- MySQL
+
+Obrigado por acessar meu portifólio, espero que ajuda no que precise.
