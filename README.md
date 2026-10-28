@@ -14,6 +14,15 @@ Código de aprendizado, mantido como registro da evolução.
 | [`php`](php) | CRUD em PHP + MySQL no padrão MVC (clientes, produtos, pedidos, vendedores) |
 | [`mysql`](mysql) | Modelos de banco no MySQL Workbench |
 
+## Projetos separados
+
+Os trabalhos mais completos ganharam repositório próprio:
+
+- [sistema-vendas-php](https://github.com/leoCasteletti/sistema-vendas-php) — CRUD em PHP + MySQL (pasta `php/mvc2`)
+- [csharp-poo](https://github.com/leoCasteletti/csharp-poo) — exercícios de POO em C#
+- [jogo-da-forca](https://github.com/leoCasteletti/jogo-da-forca) — jogo da forca em C
+- [site-barbearia](https://github.com/leoCasteletti/site-barbearia) — site estático, publicado no GitHub Pages
+
 ## Rodando
 
 - **C / C++:** `gcc arquivo.c` ou `g++ arquivo.cpp`
