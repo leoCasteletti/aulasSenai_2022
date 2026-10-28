@@ -1,6 +1,6 @@
 # Aulas SENAI 2022
 
-Exercícios e projetos do curso **Técnico em Análise e Desenvolvimento de Sistemas**, SENAI Votuporanga (2022–2023).
+Exercícios e projetos do curso **Técnico em Análise e Desenvolvimento de Sistemas**, SENAI (2022–2023).
 
 Código de aprendizado, mantido como registro da evolução.
 
