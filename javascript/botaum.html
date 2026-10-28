@@ -1,0 +1,19 @@
+<meta charset="utf-8">
+
+<br><br><br><br><br><center><button>CLIQUE AQUI</button></center></br></br></br></br></br>
+
+<script>
+    function descobrir (){
+        var Nome = prompt("QUAL SEU NOME?")
+        var PT = parseInt(prompt("INSIRA SUA NOTA DE PORTUGUÊS:"));
+        var MT = parseInt(prompt("INSIRA SUA NOTA DE MATEMATICA:"));
+        var LG = parseInt(prompt("INSIRA SUA NOTA DE LÓGICA:"));
+        var HD = parseInt(prompt("INSIRA SUA NOTA DE HARDWARE:"));        
+
+        document.write("<br>" + "Olá " + "<b>" +  Nome + "</b>" + " como você está?" + "<br>" + "Estou aqui para mostrar sua média de acordo com as notas afirmadas em nosso sistema!" + "<br>" + "<br>" + "Sua nota de Português foi: " + PT + "<br>" + "Sua nota de Matemática foi: " + MT + "<br>" + "Sua nota de Lógica foi: " + LG + "<br>" + "Sua nota de Hardware foi: " + HD + "<br>" + "<br>" + "A média de acordo com as notas acima foi de: " + Math.round(PT + MT + LG + HD) / 4); 
+    }    
+
+    var button = document.querySelector("button");
+	button.onclick = descobrir;
+    
+</script>

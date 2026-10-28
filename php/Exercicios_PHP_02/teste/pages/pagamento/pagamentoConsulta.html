@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" type="text/css" href="pagamento.css" media="screen">
+        <title>Consulta Pagamentos</title>
+    </head>
+    <center>
+    <body>  
+        <div>
+            <h1 id="titulo">Consulta De Pagamentos !</h1>
+            <p id="subtitulo">Digite por qual campo deseja realizar a consulta:</p>    
+            <br>
+        </div>
+        <form method="post" action="pagamentoConsulta.php">
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label><strong>ID:</strong></label>
+                    <input type="number" name="dado[]" placeholder="Digite o ID">
+                </fieldset>
+                <br>
+                <fieldset>
+                    <label><strong>Forma de Pagamento:</strong></label>
+                    <select name="dado[]">
+                        <option selected disabled>Selecione</option>
+                        <option value="pix">PIX</option>
+                        <option value="ct_credito">Cartão De Crédito</option>
+                        <option value="ct_debito">Cartão De Débito</option>
+                        <option value="boleto">Boleto Bancário</option>
+                        <option value="dinheiro">Dinheiro</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <label><strong>Data De Emissão:</strong></label>
+                    <input type="date" name="dado[]">
+                </fieldset>
+                <fieldset>
+                    <label><strong>Data de Vencimento:</strong></label>
+                    <input type="date" name="dado[]">
+                </fieldset>
+                <fieldset>
+                    <label><strong>Valor</strong></label>
+                    <input type="number" name="dado[]" placeholder="R$">
+                </fieldset>
+                <fieldset>
+                    <label><strong>N° Documento:</strong></label>
+                    <input type="text" name="dadoo[]" placeholder="XXXXXXXXXX">
+                </fieldset>
+                <fieldset>
+                    <label><strong>Data De Pagamento:</strong></label>
+                    <input type="date" name="dado[]">
+                </fieldset>
+                <fieldset>
+                    <label><strong>Assinatura:</strong></label>
+                    <input type="number" name="dado[]">
+                </fieldset>
+                    <button class="btn first" type="submit">Consultar Pagamento</button>
+            </fieldset>
+        </div>     
+        </form>
+    </body>
+</center>
+</html>

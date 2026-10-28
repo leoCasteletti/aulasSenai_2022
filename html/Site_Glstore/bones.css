@@ -1,0 +1,55 @@
+header{
+    background-image: url(bg.jpg);
+    padding: 20px 0;
+    border: 2px solid #000000;
+    color:rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+body{
+    font-family: Arial;
+    text-align: center;
+}
+
+.textop{
+    text-align: center;    
+}
+
+.tituloprincipal{
+    padding-left: 20px;
+}
+
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 1.5% 1.5%;
+    padding: 10px 1px 1px;    
+    box-sizing: border-box;
+    width: 15%;
+    border: 1px solid #000000;
+    border-radius: 20px;
+}
+
+/* */
+.produtos li:hover{
+    border-color: rgb(0, 0, 255);
+}
+
+/* */
+.produtos h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* */
+.bg{
+    background-image: url(bg.jpg);
+    text-align: center;   
+    color: #eedfdf;
+    margin: auto;
+    display: block;
+    padding: 20px 0;
+    border: 2px solid #000000;
+    border-radius: 20px;
+}

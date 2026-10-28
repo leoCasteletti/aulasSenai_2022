@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylePedidos.css">
+    <title># Cadastro de Pedidos #</title>
+</head>
+
+<body>
+    <div class="content">
+        <form action="">
+            <fieldset>
+                <legend>Cadastro de Pedidos</legend>
+                <div class="row">
+                    <label for="dtemissao">Data de Emissão</label>
+                    <input type="date" id="dtemissao" name="dtemissao" required>
+                </div>
+
+                <div class="row">
+                    <label for="hremissao">Horário da Emissão</label>
+                    <input type="time" id="hremissao" name="hremissao" required>
+                </div>
+
+                <div class="row">
+                    <label for="nf">Nota Fiscal</label>
+                    <input type="number" id="nf" name="nf" required>
+                </div>
+
+                <div class="row">
+                    <label for="dtsaida">Data de Saída</label>
+                    <input type="date" id="dtsaida" name="dtsaida" required>
+                </div>
+
+                <div class="row">
+                    <label for="hrsaida">Horário de Saída</label>
+                    <input type="time" id="hrsaida" name="hrsaida" required>
+                </div>
+
+                <div class="row">
+                    <label for="vfrete">Valor Frete</label>
+                    <input type="text" id="vfrete" name="vfrete" required>
+                </div>
+
+                <div class="row"></div>
+
+                <input type="submit" value="Enviar"> <input type="reset">
+            </fieldset>            
+        </form>
+    </div>
+</body>
+
+</html>

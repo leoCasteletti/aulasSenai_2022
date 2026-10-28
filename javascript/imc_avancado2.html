@@ -1,0 +1,22 @@
+<meta charset = "UTF-8">
+<script>
+    function pularlinha(){
+        document.write("<br><br>");
+    }
+    function mostra(texto){
+        document.write(texto);
+        pularlinha();
+    }
+    function calculoimc(nome, altura, peso){
+        var imc = Math.round(peso / (altura * altura));
+        mostra("O IMC de " + nome + " é de: " + imc);
+    }
+
+    var pesoroberto = 91;
+    var alturaroberto = 1.72;
+    calculoimc("Roberto", 1.72, 91);
+
+    var pesobruno = 63;
+    var alturabruno = 1.71;
+    calculoimc("Bruno", 1.71, 63);
+</script>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleClientes.css">
+    <title># Cadastro de Clientes #</title>
+</head>
+
+<body>
+    <div class="content">
+        <form action="">
+            <fieldset>
+                <legend>Cadastro de Clientes</legend>
+                <div class="row">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" placeholder="NOME" autocomplete="off" required>
+                </div>
+
+                <div class="row">
+                    <label for="sobrenome">Sobrenome</label>
+                    <input type="text" id="sobrenome" name="sobrenome" placeholder="SOBRENOME" autocomplete="off"
+                        required>
+                </div>
+                <div class="row">
+                    <label for="rg">RG</label>
+                    <input type="rg" id="rg" name="rg" placeholder="RG" autocomplete="off" required>
+                </div>
+
+                <div class="row">
+                    <label for="cpf">CPF</label>
+                    <input type="cpf" id="cpf" name="cpf" placeholder="CPF" autocomplete="off" required>
+                </div>
+
+                <div class="row">
+                    <label for="dtnasc">Data de Nascimento</label>
+                    <input type="date" id="dtnasc" name="dtnasc">
+                </div>
+
+                <div class="row">
+                    <label for="genero">Genero</label>
+                    <input type="radio" value="Masculino" id="masculino" name="genero">
+                    <label for="masculino">Masculino</label>
+                    <input type="radio" value="Feminino" id="feminino" name="genero">
+                    <label for="feminino">Feminino</label>
+                    <input type="radio" value="NBinario" id="nbinario" name="genero">
+                    <label for="nbinario">Não Binário</label>
+                </div>
+
+                <div class="row">
+                    <label for="endereco">Endereço</label>
+                    <input type="text" id="endereco" name="endereco" placeholder="ENDEREÇO" autocomplete="off" required>
+                </div>
+
+                <div class="row">
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" name="telefone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                </div>
+
+                <div class="row"></div>
+
+                <input type="submit" value="Enviar"> <input type="reset">
+            </fieldset>            
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+<meta charset="utf-8">
+<script>
+	function pularLinha(){
+		document.write("<br>");
+	}
+	function mostrar(texto){
+		document.write(texto);
+		pularLinha();
+	}
+
+	var pesoroberto = 91;
+	var alturaroberto = 1.72;
+	var imcroberto = Math.round(pesoroberto / (alturaroberto * alturaroberto));
+
+	mostrar("O IMC do Roberto é:  " + imcroberto);
+
+	var pesobruno = 63;
+	var alturabruno = 1.71;
+	var imcbruno = Math.round(pesobruno / (alturabruno * alturabruno));
+
+	mostrar("O IMC do Bruno é: " + imcbruno);
+
+	var totalimc = imcroberto + imcbruno
+	mostrar("O total dos IMC's é: " + totalimc)
+</script>

@@ -1,0 +1,32 @@
+<meta charset="utf-8">
+<script>
+
+	function pularLinha(){
+		document.write("<br>");
+	}
+
+	function mostrar(texto){
+		document.write(texto);
+		pularLinha();
+	}
+
+	function sorteionumero(numero){
+		return Math.round(Math.random() * numero);
+	}
+
+	var numeroaleatorio = sorteionumero(100);
+	var numerogerado = sorteionumero(numeroaleatorio);
+	console.log(numerogerado);
+	var numeropensado = parseInt(prompt("Digite um número de 0 a " + numeroaleatorio + " abaixo"));
+	console.log(numerogerado);
+
+	if(numeropensado == numerogerado){
+		mostrar("Você acertou. O número gerado escolhido pela máquina foi: " + numerogerado);
+	} 
+	if(numeropensado < numerogerado) {
+		mostrar("Você perdeu. Seu número foi menor do que o escolhido pela máquina!");
+	}
+	if(numeropensado > numerogerado) {
+		mostrar("Você perdeu. Seu número foi maior do que o escolhido pela máquina!");
+	}
+</script>

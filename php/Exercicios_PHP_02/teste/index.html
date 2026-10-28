@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="stylesheet" href="style.css"/>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"/>
+		<style>.cookieConsentContainer{z-index:999;width:350px;min-height:20px;box-sizing:border-box;padding:30px 30px 30px 30px;background:#232323;overflow:hidden;position:fixed;bottom:30px;right:30px;display:none}.cookieConsentContainer .cookieTitle a{font-family:OpenSans,arial,sans-serif;color:#fff;font-size:22px;line-height:20px;display:block}.cookieConsentContainer .cookieDesc p{margin:0;padding:0;font-family:OpenSans,arial,sans-serif;color:#fff;font-size:13px;line-height:20px;display:block;margin-top:10px}.cookieConsentContainer .cookieDesc a{font-family:OpenSans,arial,sans-serif;color:#fff;text-decoration:underline}.cookieConsentContainer .cookieButton a{display:inline-block;font-family:OpenSans,arial,sans-serif;color:#fff;font-size:14px;font-weight:700;margin-top:14px;background:#000;box-sizing:border-box;padding:15px 24px;text-align:center;transition:background .3s}.cookieConsentContainer .cookieButton a:hover{cursor:pointer;background:#3e9b67}@media (max-width:980px){.cookieConsentContainer{bottom:0!important;left:0!important;width:100%!important}}</style>
+		<script>var purecookieTitle="Cookies.",purecookieDesc="Aceita Cookies.",purecookieLink='<a href="https://www.cssscript.com/privacy-policy/" target="_blank">Oque é isso?</a>',purecookieButton="Aceitar";function pureFadeIn(e,o){var i=document.getElementById(e);i.style.opacity=0,i.style.display=o||"block",function e(){var o=parseFloat(i.style.opacity);(o+=.02)>1||(i.style.opacity=o,requestAnimationFrame(e))}()}function pureFadeOut(e){var o=document.getElementById(e);o.style.opacity=1,function e(){(o.style.opacity-=.02)<0?o.style.display="none":requestAnimationFrame(e)}()}function setCookie(e,o,i){var t="";if(i){var n=new Date;n.setTime(n.getTime()+24*i*60*60*1e3),t="; expires="+n.toUTCString()}document.cookie=e+"="+(o||"")+t+"; path=/"}function getCookie(e){for(var o=e+"=",i=document.cookie.split(";"),t=0;t<i.length;t++){for(var n=i[t];" "==n.charAt(0);)n=n.substring(1,n.length);if(0==n.indexOf(o))return n.substring(o.length,n.length)}return null}function eraseCookie(e){document.cookie=e+"=; Max-Age=-99999999;"}function cookieConsent(){getCookie("purecookieDismiss")||(document.body.innerHTML+='<div class="cookieConsentContainer" id="cookieConsentContainer"><div class="cookieTitle"><a>'+purecookieTitle+'</a></div><div class="cookieDesc"><p>'+purecookieDesc+" "+purecookieLink+'</p></div><div class="cookieButton"><a onClick="purecookieDismiss();">'+purecookieButton+"</a></div></div>",pureFadeIn("cookieConsentContainer"))}function purecookieDismiss(){setCookie("purecookieDismiss","1",7),pureFadeOut("cookieConsentContainer")}window.onload=function(){cookieConsent()};</script>
+		<title>SENAI - Atividade Vendas</title>
+	</head>
+	<body>
+		<navbar id="navbar"><X-UA-Compatiblex></X-UA-Compatiblex>
+			<div class="navbar-container">
+				<a href="">
+				<img src="gaia_logonormal.png" alt="" class="logo"/>
+				</a>
+				<ul class="navbar-items">
+                    <a href="" target="_blank" style="color: white; text-decoration: none;">
+					<li class="navbar-item">Assinaturas </li>
+                    </a>
+                    <a href="http://localhost/Exercicios_PHP_02/projetoGaia/servicos/servicos.html" target="_blank" style="color: white; text-decoration: none;">
+					<li class="navbar-item">Serviços</li>
+                    </a>
+                    <a href="http://localhost/Exercicios_PHP_02/projetoGaia/pagamento/pagamento.html" target="_blank" style="color: white; text-decoration: none;">
+					<li class="navbar-item">Pagamento</li>
+                    </a>
+                    <a href="" target="_blank" style="color: white; text-decoration: none;">
+                    <li class="navbar-item">Dados Estações</li>
+                    </a>
+                    <a href="http://localhost/Exercicios_PHP_02/projetoGaia/dadosEstacoes/dados_estacoes.php" target="_blank" style="color: white; text-decoration: none;">
+                    <li class="navbar-item">Estações</li>
+                    </a>
+                    <a href="" target="_blank" style="color: white; text-decoration: none;">
+                    <li class="navbar-item">Região</li>
+                    </a>
+				</ul>
+			</div>
+		</navbar>
+		<div id="showcase">
+			<div class="showcase-container">
+				<h2>PROJETO GAIA</h2>
+				<p>
+					Venha ser um cliente conosco!
+				</p>
+				<a href="http://localhost/Exercicios_PHP_02/projetoGaia/usuarios/" target="_blank" style="color: white; text-decoration: none;">
+				<button class="btn-primary">Cadastre-se Agora Mesmo</button>
+				</a>
+			</div>
+		</div>
+		<footer id="footer">
+			<div class="footer-content">
+				<img src="gaia_logonormal.png" alt="" class="logo" />
+				<div class="socials">
+                    <a href="https://www.instagram.com/senaivotuporanga/" target="_blank" style="color: white; text-decoration: none;">
+					<i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://twitter.com/SenaiSaoPaulo" target="_blank" style="color: white; text-decoration: none;">
+					<i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://pt-br.facebook.com/SENAIVOTUPORANGA" target="_blank" style="color: white; text-decoration: none;">
+					<i class="fab fa-facebook-f"></i>
+                    </a>
+				</div>
+			</div>
+			<div class="footer-info">
+				<ul class="footer-info-items">
+					<a href="https://twitter.com/alisonryzo" target="_blank" style="color: white; text-decoration: none;">
+					<li class="footer-info-item">Projetin Dos Crias Gaia</li>
+				</a>
+				</ul>
+				<div class="rights">
+					<div class="country">
+						<p>Brasil</p>
+						<img src="gaia_logo.png" alt="" class="brazil-flag" />
+					</div>
+					<p>&copy; 2022 SENAI</p>
+				</div>
+			</div>
+		</footer>   
+		<script
+			src="https://kit.fontawesome.com/f9e19193d6.js"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>

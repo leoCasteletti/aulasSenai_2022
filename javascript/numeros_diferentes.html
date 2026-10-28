@@ -1,0 +1,28 @@
+<meta charset="utf-8">
+<script>
+	function pularlinha(){
+        document.write("<br>");
+    }
+    function mostrar(texto){
+        document.write(texto);
+        pularlinha();
+    }
+
+    var primeironumero = 10;   
+    while(primeironumero <= 80){
+    
+    mostrar("<center>Número par " + "<u><b><i>" + primeironumero + "</center></u></b></i>");
+    primeironumero = primeironumero + 1; //incrementar de dois em dois
+    
+    if(primeironumero == 43){ 
+        primeironumero = primeironumero + 1
+        mostrar("<center><b>Esse número foi bloqueado pelo sistema</b></center>");
+    }
+    if(primeironumero == 77){ 
+        primeironumero = primeironumero + 1
+        mostrar("<center><b>Esse número foi bloqueado pelo sistema</b></center>");
+    } 
+    }
+
+    mostrar("<center><br><b>FIM</b></center>");
+</script>

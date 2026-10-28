@@ -1,0 +1,17 @@
+<meta charset="utf-8">
+<script>
+	function pularLinha(){
+		document.write("<br><br>");
+	}
+	function mostrar(texto){
+		document.write(texto);
+		pularLinha();
+	}
+
+	var x = prompt("Ano de descobrimento do Brasil:");
+	var y = prompt("Ano atual:");
+	var z = prompt("Media de filhos:");
+	var x1 = Math.round((y - x) / z);
+
+	mostrar("Ja se passaram " + x1 + " gerações desde o ano de " + x);
+</script>

@@ -1,0 +1,19 @@
+<meta charset="utf-8">
+<script>
+	function pularlinha(){
+        document.write("<br>");
+    }
+    function mostrar(texto){
+        document.write(texto);
+        pularlinha();
+    }
+
+    var verLimite = parseInt(prompt("Digite o limite"));
+    var anoCopa = 1930; 
+    while(anoCopa <= 2022){
+    mostrar("<center>Teve copa em " + "<u><b><i>" + anoCopa + "</center></u></b></i>");
+    anoCopa = anoCopa + 4; //incrementar de 4 em 4
+    }
+    mostrar("<center><br><b>FIM</b></center>");
+
+</script>

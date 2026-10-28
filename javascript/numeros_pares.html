@@ -1,0 +1,19 @@
+<meta charset="utf-8">
+<script>
+	function pularlinha(){
+        document.write("<br>");
+    }
+    function mostrar(texto){
+        document.write(texto);
+        pularlinha();
+    }
+
+    var verLimite = parseInt(prompt("Digite o limite"));
+    var primeironumero = 0; 
+    while(primeironumero <= verLimite){
+    mostrar("<center>Número par " + "<u><b><i>" + primeironumero + "</center></u></b></i>");
+    primeironumero = primeironumero + 2; //incrementar de dois em dois
+    }
+    mostrar("<center><br><b>FIM</b></center>");
+
+</script>

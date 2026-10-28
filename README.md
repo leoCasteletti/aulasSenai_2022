@@ -1,13 +1,22 @@
-# aulasSenai_2022
-Olá, nesse repositório contém todos os programas que desenvolvemos durante o 1° e 2° Semestre de 2022 do Curso Técnico em Desevolvimento de Sistemas - SENAI VOTUPORANGA.
+# Aulas SENAI 2022
 
-Contém programas desenvolvidos nas seguintes linguagens:
-- C
-- C#
-- C++
-- HTML
-- JavaScript
-- PHP
-- MySQL
+Exercícios e projetos do curso **Técnico em Análise e Desenvolvimento de Sistemas**, SENAI Votuporanga (2022–2023).
 
-Obrigado por acessar meu portifólio, espero que ajuda no que precise.
+Código de aprendizado, mantido como registro da evolução.
+
+| Pasta | Conteúdo |
+|---|---|
+| [`c`](c) | Lógica básica, jogo da forca, adivinhação, listas de exercícios |
+| [`cpp`](cpp) | Entrada/saída, condicionais, laços, maratonas de programação |
+| [`csharp`](csharp) | Console, vetores e matrizes, POO, avaliação final |
+| [`javascript`](javascript) | Exercícios em HTML + JS: IMC, tabuada, jogos de adivinhação |
+| [`html`](html) | Sites estáticos: barbearia e loja de roupas |
+| [`php`](php) | CRUD em PHP + MySQL no padrão MVC (clientes, produtos, pedidos, vendedores) |
+| [`mysql`](mysql) | Modelos de banco no MySQL Workbench |
+
+## Rodando
+
+- **C / C++:** `gcc arquivo.c` ou `g++ arquivo.cpp`
+- **C#:** abrir o `.sln` no Visual Studio
+- **HTML / JS:** abrir o `.html` no navegador
+- **PHP:** XAMPP, copiar a pasta para `htdocs` e importar o banco

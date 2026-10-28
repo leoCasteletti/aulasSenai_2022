@@ -1,0 +1,24 @@
+<meta charset="utf-8">
+<script>
+
+	function pularlinha(){
+        document.write("<br>");
+    }
+
+    function mostrar(texto){
+        document.write(texto);
+        pularlinha();
+    }
+
+    var resposta = ""; // ainda não tem resposta // ela vai receber texto ao invés de numero
+
+    while(true){
+    	resposta = prompt("Qual é seu nome?");
+    	if(resposta == "SAIR"){
+    		break; // interrompe uma repetição (looping)
+    	}
+    }
+
+    mostrar("FIM")
+
+</script>

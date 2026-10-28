@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>    
+    <h1>Operação Matemática</h1>
+
+    <h3>Escolha sua Opção</h3>
+   
+    <fieldset>                
+        <legend><strong>Função Que Deseja Executar</strong></legend><br>
+
+        <label>
+        <input type="radio" name="escolherOpcao" id="soma"/>
+            Soma<br>
+        </label>
+
+        <label>
+        <input type="radio" name="escolherOpcao" id="subtracao"/>
+            Subtração<br>
+        </label>
+
+        <label>
+        <input type="radio" name="escolherOpcao" id="divisao"/>
+            Divisão<br>
+        </label>
+
+        <label>
+        <input type="radio" name="escolherOpcao" id="multiplicacao"/>
+            Multiplicação<br>
+       </label>
+
+        <label>
+        <input type="radio" name="escolherOpcao" id="exponenciacao"/>
+            Exponenciação<br>
+        </label>
+    </fieldset><br>
+
+    <form>
+        1° Número: <input type="text" id="oneNumber"/><br>
+        2° Número: <input type="text" id="secondNumber"/><br>
+        <input type="button" onClick="soma()" Value="Resultado" />
+    </form>
+
+    <p>The Result is : <br>
+        <span id = "result"></span>
+      </p>
+
+    <script>
+        const soma = document.querySelector('soma');
+        const subtracao = document.querySelector('subtracao');
+        const divisao = document.querySelector('divisao');
+        const multiplicacao = document.querySelector('multiplicacao');
+        const exponenciacao = document.querySelector('exponenciacao');
+
+        if(soma)
+       function a(){       
+        numero1 = document.getElementById("oneNumber").value;
+        numero2 = document.getElementById("secondNumber").value;
+        resultado = document.getElementById("result").innerHTML = numero1 + numero2;
+       }
+    </script>    
+    
+</body>
+</html>

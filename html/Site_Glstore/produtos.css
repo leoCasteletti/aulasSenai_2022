@@ -1,0 +1,89 @@
+/* CABEÇA */
+header{
+    background-image: url(bg.jpg);
+    padding: 20px 0;
+    border: 2px solid #000000;
+    border-radius: 20px;
+}
+
+/* AQUI EU ESTRUTUREI PARA A PÝGINA TODA FICAR COM A FONTE ARIAL*/
+body{
+    font-family: Arial;
+    text-transform: uppercase;
+}
+
+/* */
+nav{
+    position: absolute;
+    top: 120px;
+    right: 70px;
+}
+
+/* */
+nav a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+/* AQUI AO PASSAR O MOUSE EM CIMA DOS MENUS INICIAL ELES IRÃO FICAR AZUL*/
+div a:hover{
+    color: rgb(0, 0, 255);
+}
+
+/* */
+nav li{
+    display: inline;
+    margin: 0 0 0 15px; /*TOPO, DIREITA, EMBAIXO e ESQUERDA*/
+}
+
+/* */
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 1.5% 1.5%;
+    padding: 30px 5px;    
+    box-sizing: border-box;
+    width: 30%;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #000000;
+}
+
+/* */
+.produtos li:hover{
+    border-color: rgb(0, 0, 255);
+}
+
+/* */
+.produtos h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* */
+.produto-descricao{
+    font-size: 18px;
+}
+
+/* */
+.preco{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* */
+.bg{
+    background-image: url(bg.jpg);
+    text-align: center;   
+    color: #eedfdf;
+    margin: auto;
+    display: block;
+    padding: 20px 0;
+    border: 2px solid #000000;
+    border-radius: 20px;
+}

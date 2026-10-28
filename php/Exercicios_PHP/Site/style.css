@@ -1,0 +1,20 @@
+/* Configurando Estilo da Barra de Navegação */
+.barra-navegacao-transparente{
+    padding: 15px 0px;
+    background: rgba(0,0,0,0.6);
+}
+
+.navegacao-item{
+    color: #FFF;
+    text-align: justify;
+}
+
+.navegacao-item:hover{
+    color: rgb(0, 25, 255);
+}
+
+.divisor{
+    width: 1px;
+    background:white;
+    margin: 12px 15px;
+}

@@ -1,0 +1,18 @@
+<meta charset="utf-8">
+<script>
+	function pularLinha(){
+		document.write("<br>");
+	}
+
+	function mostrar(texto){
+		document.write(texto);
+		pularlinha();
+	}
+
+	var nome = prompt("Como você se chama?")
+	var idade1 = prompt(nome + " em qual ano você nasceu?");
+	var idade2 = prompt(nome + " em que ano você está?")
+	var idadereal = idade2 - idade1
+	
+	mostrar(nome + " sua idade é de " + idadereal + " anos.")
+</script>

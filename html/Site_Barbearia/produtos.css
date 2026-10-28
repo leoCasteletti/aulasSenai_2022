@@ -1,0 +1,105 @@
+header{
+    background: #8383839c;
+    padding: 20px 0;
+    border: 2px solid #000000;
+    border-radius: 20px;
+}
+
+.box{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+body{
+    font-family: Arial;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 60px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+nav a:hover{
+    color: rgba(0, 0, 255, 0.541);
+    text-decoration: underline;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px; /*TOPO, DIREITA, EMBAIXO e ESQUERDA*/
+}
+
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 1.5% 1.5%;
+    padding: 30px 5px;    
+    box-sizing: border-box;
+    width: 30%;
+    border: 2px solid #000000;
+    border-radius: 20px;
+}
+
+.produtos li:hover{
+    border-color: rgba(0, 0, 255, 0.5);
+}
+
+.produtos li:hover h2{
+    font-size: 28px;
+}
+
+.produtos li:active{
+    border-color: rgba(50, 250, 0, 0.5);
+}
+
+.produtos h2{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.produto-descricao{
+    font-size: 18px;
+}
+
+.preco{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.produtos a{
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.bg{
+    background-image: url(bg.jpg);
+    text-align: center;   
+    color: #eedfdf;
+    margin: auto;
+    display: block;
+    padding: 20px 0;
+    width: 940px;
+    border: 2px solid #000000;
+    border-radius: 20px;
+}

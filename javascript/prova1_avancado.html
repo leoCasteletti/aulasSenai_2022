@@ -1,0 +1,22 @@
+<meta charset="utf-8">
+<script>
+	function pularLinha(){
+		document.write("<br>");
+	}
+
+	function mostrar (texto){
+		document.write(texto);
+		pularLinha();
+	}
+
+	var z = prompt("Digite o valor de acertos");
+	var x = z / 50 * 100;
+
+	mostrar("Obteve " + x + " acertos.");
+
+	if(x < 49){
+		mostrar("Você foi reprovado(a)");
+	} else {
+		mostrar("Parabéns, você foi aprovado(a)");
+	}
+</script>

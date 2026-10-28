@@ -1,0 +1,33 @@
+<meta charset = "UTF-8">
+
+<h1> MINHAS RECEITAS </h1>
+
+<script>
+
+    var receitatotal = [];
+
+    var quantidade = parseInt(prompt("Quantos ingredientes você vai adicionar na receita "));
+
+    var contador = 1;
+
+    while(contador <= quantidade){
+        var ingrediente = prompt("Informe o ingrediente " + contador);
+
+		var existe = false;
+
+		for(var posicao = 0; posicao < receitatotal.length; posicao++){;
+			if(receitatotal[posicao] == ingrediente){;
+			existe = true;
+			break;
+		}
+	}
+
+		if(existe == false){
+			receitatotal.push(ingrediente);
+			contador++
+	}
+}
+    
+	console.log(receitatotal);
+
+</script>

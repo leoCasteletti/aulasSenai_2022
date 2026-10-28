@@ -1,0 +1,30 @@
+<meta charset="utf-8">
+<script>
+
+	function pularLinha(){
+		document.write("<br>");
+		document.write("<br>");
+	}
+
+	function mostrar(texto){
+		document.write(texto);
+		pularLinha();
+	}
+
+	function sorteia(numero){
+		return Math.round(Math.random() * numero);
+	}
+	
+	var numeropensado = sorteia(100);
+	var chute = parseInt(prompt("Digite seu chute"));
+
+	if(chute == numeropensado){
+		mostrar("Você acertou. O número gerado escolhido pela máquina foi: " + numerogerado);
+	} 
+	if(chute < numeropensado) {
+		mostrar("Você perdeu. Seu número foi menor do que o escolhido pela máquina!");
+	}
+	if(chute > numeropensado) {
+		mostrar("Você perdeu. Seu número foi maior do que o escolhido pela máquina!");
+	}
+</script>

@@ -1,0 +1,33 @@
+<meta charset="UTF-8">
+
+<script>
+	function pularlinha(){
+        document.write("<br>");
+    }
+
+    function mostrar(texto){
+        document.write(texto);
+        pularlinha();
+    }
+
+    var Contador = 1;
+    var NumeroAlunos = 20;
+
+    alert("Olá secretária(o), digite as notas dos alunos!")
+
+	mostrar("<center><h1>Secretaria da Educação do Estado de São Paulo</center></h1>")
+
+    while(Contador <= NumeroAlunos){
+        var Aluno = prompt("Informe o nome do aluno.");
+        var NotaPortugues = parseInt(prompt("Qual a nota de Português do aluno " + Aluno));
+        var NotaMatematica = parseInt(prompt("Qual a nota de Matemática do aluno " + Aluno));
+        var NotaLogica = parseInt(prompt("Qual a nota de Lógica do aluno " + Aluno));
+        var NotaHardware = parseInt(prompt("Qual a nota de Hardware do aluno " + Aluno));
+        var MediaNotas = Math.round((NotaPortugues + NotaMatematica + NotaLogica + NotaHardware) / 4);
+        mostrar("<b>" + "ALUNO: " + Aluno + "</b>" + "<br>" + "Nota de Português: " + NotaPortugues + "<br>" + "Nota de Matemática: " + NotaMatematica + "<br>" + "Nota de Lógica: " + NotaLogica + "<br>" + "Nota de Hardware: " + NotaHardware + "<br>" + "Média das notas: " + MediaNotas);
+                Contador++
+            if(Contador == NumeroAlunos){
+                break;
+        }
+    }
+</script>

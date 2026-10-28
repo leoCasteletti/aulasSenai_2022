@@ -1,0 +1,32 @@
+<meta charset="utf-8">
+<h3>Álcool ou Gasolina?</h3>
+<script>
+	function pularLinha (){
+		document.write("<br>");
+	}
+	function mostrar (texto){
+		document.write(texto);
+		pularLinha();
+	}
+
+	var TanqueGasolina = prompt("Tanque em litros (Gasolina)");
+	var TanqueAlcool = prompt("Tanque em litros (Álcool)");
+	var KmRodadosGasolina = prompt("Distância percorrida (Gasolina)");
+	var KmRodadosAlcool = prompt("Distância percorrida (Álcool)");
+
+	mostrar("O consumo do veículo na gasolina é de: " + KmRodadosGasolina / TanqueGasolina + " km/l<br>");
+	if(KmRodadosGasolina / TanqueGasolina <= 10){
+		mostrar("O consumo do seu veículo na gasolina esta ruim!<br>")
+	} else {
+		mostrar("O consumo do seu veículo na gasolina esta bom<br>")
+	}
+
+
+	mostrar("O consumo do veículo no álcool é de: " + KmRodadosAlcool / TanqueAlcool + " km/l<br>");
+	if(KmRodadosAlcool / TanqueAlcool <= 8){
+		mostrar("O consumo do seu veículo no álcool esta ruim!<br>")
+	} else {
+		mostrar("O consumo do seu veículo no álcool esta bom<br>")
+	}
+	
+</script>

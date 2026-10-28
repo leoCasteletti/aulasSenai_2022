@@ -1,0 +1,33 @@
+<meta charset="utf-8">
+<script>
+    var usuario = "leonardo";
+    var senha = "12345";
+
+    var numerotentativas = 3;
+    var tentativaatual = 1;
+
+    var loginusuario = prompt("Login:");
+    var senhausuario = prompt("Senha:");
+
+    while(tentativaatual <= numerotentativas){
+
+        if(usuario == loginusuario && senha == senhausuario){
+            alert("Acesso permitido " + loginusuario);
+
+            tentativaatual = numerotentativas; //acerto então ele irá parar o looping
+
+        } else {
+
+            if(tentativaatual == 3){
+
+                alert("Número permitido de tentativas excedido.");
+
+        } else {
+
+            senhausuario = prompt("Login inválido. Tente novamente");
+        }
+    }
+
+    tentativaatual = tentativaatual + 1; //vamos para a próxima tentativa
+    }    
+</script>

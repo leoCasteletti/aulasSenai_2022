@@ -1,0 +1,45 @@
+<!--<meta charset="utf-8">
+
+<script>
+
+	function pularlinha(){
+        document.write("<br>");
+    }
+
+    function mostrar(texto){
+        document.write(texto);
+        pularlinha();
+    }
+
+	var nome = (prompt("Nome:"));
+	var idade = (prompt("Idade:"));
+	var temCarteira = (prompt("Possui Carteira de Motorista?:"));
+
+	var usuario = [ nome, idade, temCarteira ];
+
+	mostrar("O nome da pessoa é: " + "<b>" + usuario[0] + "</b>");
+	mostrar("<b>" + usuario[0] + "</b>" + " possui " + usuario[1] + "anos de idade");
+	mostrar("<b>" + usuario[0] + "</b>" + " é habilitado(a)? " + usuario[2])
+
+</script> -->
+
+<meta charset="utf-8">
+
+<script>
+
+	function pularlinha(){
+        document.write("<br>");
+    }
+
+    function mostrar(texto){
+        document.write(texto);
+        pularlinha();
+    } 
+
+    var parcelas = ["10.40 ", " 40.00 ", " 100.18 ", " 200"];
+    for (var i = 0; i < parcelas.length; i++){
+    	document.write(parcelas[i]);
+    }
+    document.write(" FIM")
+
+</script>

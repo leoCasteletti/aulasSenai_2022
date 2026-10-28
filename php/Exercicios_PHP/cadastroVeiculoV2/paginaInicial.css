@@ -1,0 +1,86 @@
+/*CSS DA PÁGINA PRINCIPAL*/
+header{
+    background: #8383839c;
+    padding: 20px 0;
+    border: 2px solid #000000;
+    border-radius: 20px;
+}
+
+.titulo-principal{
+    text-align: center;    
+    margin: 0 0 2em;   
+    clear: left;
+}
+
+/*CSS DA PÁGINA PRINCIPAL*/
+/*CONFIG DO TABELA*/
+table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
+}
+
+
+td, th {
+    padding: .5em;
+    margin: 0;
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+}
+  
+th{
+    background-color: rgba(255, 190, 0);
+}
+
+td{
+    background-color: rgb(255, 220, 120);
+}
+
+/*CSS DA PÁGINA PRINCIPAL*/
+/*CONFIG DO BOX*/
+
+.box{
+    position: relative;    
+    margin: 0 auto;
+    background: #8383839c;
+    padding: 20px 0;    
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 60px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+nav a:hover{
+    color: rgba(0, 0, 255, 0.541);
+    text-decoration: underline;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px; /*TOPO, DIREITA, EMBAIXO e ESQUERDA*/
+}
+
+/*CSS DA PÁGINA PRINCIPAL*/
+/*CONFIG RODAPÉ FINAL DA PÁGINA*/
+.background-rodape{  
+    background-image: url(bg.jpg);
+    text-align: center;   
+    color: #eedfdf;
+    margin: auto;
+    display: block;
+    padding: 20px 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    position: absolute;
+}

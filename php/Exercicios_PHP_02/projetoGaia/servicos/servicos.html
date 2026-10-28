@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="servicos.php">
+    <link rel="stylesheet" href="servicos2.html">
+    <link rel="stylesheet" href="ServicosConsulta.php">
+    <link rel="stylesheet" href="ServicosExclusao.php">
+    <link rel="stylesheet" href="ServicosAlteracao.php">
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serviços</title>
+    <style>
+    </style>
+</head>
+
+<body>      
+    <form method="post" action="servicos.php">
+    <div class="box">
+            <fieldset>
+                <legend><b>Serviços</b></legend>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="Servicos_descricao"  class="inputUser" required>
+                    <label for="descricao" class="labelInput">Descrição do serviço</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="Servicos_valor"  class="inputUser" required>
+                    <label for="cpf" class="labelInput">Valor dos serviços</label>
+                </div>
+                
+                <br><br>
+                <div class="inputBox"> 
+                    <input type="text" name="Servicos_duracao" class="inputUser" required>
+                    <label for="rg" class="labelInput">Duração dos serviços</label>
+                </div>
+                <br><br>
+
+                <li><a href="servicos2.html">Consulta</a></li>
+                <br><br>
+                
+                <input type="submit" name="submit" id="submit">
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>         

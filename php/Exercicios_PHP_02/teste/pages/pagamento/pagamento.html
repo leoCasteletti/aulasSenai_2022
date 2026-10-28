@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+        <link rel="stylesheet" type="text/css" href="pagamento.css" media="screen">
+
+        <title>Pagamento</title>
+    </head>
+    <center>
+    <body>  
+        <div>
+            <h1 id="titulo">Pagamento</h1>
+            <p id="subtitulo">Complete com as seguintes informações:</p>
+            <br>
+        </div>
+        <form method="post" action="pagamento.php">
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label for="senioridade" style="font-size: 15pt;"><strong>Forma De Pagamento: </strong></label>
+                    <select name="forma_pagamento" required>
+                    <option selected disabled>Selecione</option>
+                    <option value="pix">PIX</option>
+                    <option value="ct_credito">Cartão De Crédito</option>
+                    <option value="ct_debito">Cartão De Débito</option>
+                    <option value="boleto">Boleto Bancário</option>
+                    <option value="dinheiro">Dinheiro</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <label><strong style="font-size: 15pt;">Data De Emissão:</label>
+                    <input type="date" name="dt_emissao" required>
+                </fieldset>
+                <fieldset>
+                    <label><strong style="font-size: 15pt;">Data De Vencimento:</strong></label>
+                    <input type="date" name="dt_vencimento"required>
+                </fieldset>
+                <fieldset>
+                    <label><strong style="font-size: 15pt;">Valor:</strong></label>
+                    <input type="number" name="valor"required placeholder="R$">
+                </fieldset>
+                <fieldset>
+                    <label><strong style="font-size: 15pt;">N° Documento:</strong></label>
+                    <input type="text" name="n_documento" required placeholder="XXXXXXXXXXX">
+                </fieldset>
+                <fieldset>
+                    <label><strong style="font-size: 15pt;" >Data De Pagamento:</strong></label>
+                    <input type="date" name="dt_pagamento"required>
+                </fieldset>
+                <fieldset>
+                    <label><strong style="font-size: 15pt;" >Assinatura:</strong></label>
+                    <input type="number" name="assinatura"required>
+                </div>
+            </fieldset>
+            <br>
+            <button class="btn first" type="submit">Cadastrar Pagamento</button>            
+        </form>
+    </body>
+</center>
+</html>

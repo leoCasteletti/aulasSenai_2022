@@ -1,0 +1,87 @@
+.principal{
+    background-image: url(bg.jpg);
+    text-align: center;   
+    color: #ffffff;
+    margin: auto;
+    display: block;
+    padding: 20px 0;
+    width: 940px;
+    border: 2px solid #000000;
+    border-radius: 20px;
+}
+
+body{
+    font-family: Arial;
+    text-align: center;
+}
+
+.localizacao{
+    background-image: url(bg.jpg);
+    text-align: center;   
+    color: #ffffff;
+    margin: auto;
+    display: block;
+    margin-top: 30px;
+    padding: 20px 0;
+    width: 940px;
+    border: 2px solid #000000;
+    border-radius: 20px;
+}
+
+.beneficios{
+    background-image: url(bg.jpg);
+    text-align: center;   
+    color: #ffffff;
+    margin: auto;
+    display: block;
+    margin-top: 30px;
+    padding: 20px 0;
+    width: 940px;
+    border: 2px solid #000000;
+    border-radius: 20px;
+}
+
+.interesse{
+    background-image: url(bg.jpg);    
+    text-align: center;
+    margin: auto;
+    display: block;
+    margin-top: 30px;
+    padding: 20px 0;
+    width: 940px;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.interesse a h3{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#missao{
+    font-size: 20px;
+}
+
+#banner{
+    width: 60%;
+}
+
+.textop{
+    text-align: center;    
+}
+
+.textocentralizado{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 1px;
+}
+
+.tituloprincipal{
+    padding-left: 20px;
+}
+
+p{ 
+    text-align: center;
+}
